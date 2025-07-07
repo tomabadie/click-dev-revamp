@@ -11,9 +11,6 @@ body {
   padding: 0;
 }
 
-/* 
-Add 2 new fonts : heading and body
- */
 @font-face {
   font-family: "Bai Jamjuree";
   font-weight: 400;
@@ -61,7 +58,8 @@ button {
   text-transform: uppercase;
 }
 
-/* Style pour le mode sombre */
+/* Style - Dark mode */
+
 .dark-mode {
   background-color: var(--background-dark-color);
   color: var(--light-text-color);
@@ -153,12 +151,6 @@ header {
         position: relative;
         transition: 0.3s;
 
-        /* A garder ?
-                &:hover {
-                    transform: scale(1.0);
-                } 
-                */
-
         a {
           text-decoration: none;
 
@@ -181,8 +173,6 @@ header {
       }
     }
   }
-
-  /* buttonDarkMode */
 
   .toggle-btn {
     width: 30px;
@@ -228,7 +218,7 @@ header {
 }
 
 /* Main */
-/* A mettre dans les fichiers séparés */
+/* Copy that in all files */
 
 /* 
 main {
